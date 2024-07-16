@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#card {
+  width: 300px;
+}
+
+#img-card {
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+}
+
+
+#nav {
+  background-color: white;
+}
+
+#main {
+  height: auto;
+  width: 500px;
+  margin-left: 300px;
+}
+
+#containerProductos {
+  margin-top: 100px;
+}
+
+#cardCloseButton {
+  height: 38px;
+  width: 40px;
+  position:absolute;
+  border-radius: 99999px;
+  width: 30px;
+  right: 0;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+#carEditButton {
+  height: 30px;
+  position:absolute;
+  border-radius: 99999px;
+  width: 30px;
+  right: 10;
+  transform: translate(150px, -15px);
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+#navLateral, #cardBody {
+  background-color: #335;
+  color: white
+}
+
+#navBar {
+  background-color: white;
+}
+
+#botonAgregar {
+  transform: translateX(112px);
+}
+
+#botonBuscar {
+  transform:  translateX(122px);
+}
+
+#mensajeDeAgregado {
+  background-color: rgb(63, 247, 99);
+}
